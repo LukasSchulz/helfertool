@@ -285,7 +285,7 @@ msgstr "Django Admin Interface"
 
 #: helfertool/templates/helfertool/base.html:25
 msgid "Helfertool"
-msgstr "Helfertool"
+msgstr "Helfitool"
 
 #: helfertool/templates/helfertool/base.html:43
 msgid "Events"
@@ -360,7 +360,7 @@ msgstr "Du hast keine Berechtigung, um diese Seite anzusehen!"
 
 #, python-format
 #~ msgid "Helfertool - %(eventname)s"
-#~ msgstr "Helfertool - %(eventname)s"
+#~ msgstr "Helfitool - %(eventname)s"
 
 #~ msgid "Helfertool - Administration"
 #~ msgstr "Helfertool - Administration"
