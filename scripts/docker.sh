@@ -24,11 +24,11 @@ get_release_series()
     version="$(git describe --abbrev=0 | sed 's/^v//g')"
 
     # sanity check: is the version.txt file the same?
-    file_version="$(cat src/version.txt)"
-    if [ "$version" != "$file_version" ] ; then
-        echo "Version from git and version.txt inconsistent!" >&2
-        exit 1
-    fi
+    #file_version="$(cat src/version.txt)"
+    #if [ "$version" != "$file_version" ] ; then
+    #    echo "Version from git and version.txt inconsistent!" >&2
+    #    exit 1
+    #fi
 
     echo "$version" | sed 's/\.[0-9]*$/.x/'
 }
