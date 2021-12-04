@@ -5,7 +5,7 @@ set -eu
 #
 # settings and base directory
 #
-docker_name="helfertool/helfertool"
+docker_name="zauberberg/helfertool"
 
 basedir="$(dirname "$(dirname "$(readlink -f "$0")")")"
 cd "$basedir"
